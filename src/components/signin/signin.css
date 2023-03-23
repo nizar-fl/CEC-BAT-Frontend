@@ -1,0 +1,74 @@
+
+@media (min-width: 901px) {
+    .signincontainter{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+    }
+    .biglogoimg{
+        width: 70%;
+        height: auto;
+    }
+    .biglogo{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        padding-left: 5%;
+    }
+    .logincontainer{
+        
+        width: 55%;
+        text-align: center;
+        padding-top: 9%;
+    }
+    .logintitle{
+        font-size: 30px;
+        color: #911b19;
+        font-weight: 500;
+        font-family: 'Playfair Display', serif;
+        margin-top: 1%;
+
+    }
+    .formcontainer{
+        margin-top: 5%;
+        display: flex;
+        justify-items: center;
+        justify-content: center;
+        height: 25vh;
+        margin-bottom: 40px;
+    }
+    .loginform{
+        
+        width: 50%;
+        row-gap: 10%;
+        display:grid;
+        grid-template-rows: 1fr  1fr 1fr ;
+
+    }
+    .passwordinput{
+        border-radius: 5px;
+        padding-left: 6%;
+        border: none;
+        border-bottom: 2px solid #911b19;
+
+    }
+    .emailinput{
+        border-radius: 5px;
+        padding-left: 6%;
+        border: none;
+        border-bottom: 2px solid #911b19;
+    }
+    .loginbutton{
+        width: 30%;
+        text-decoration: none;
+        background-color: #911b19;
+        border: 1px solid #911b19;
+        color: white;
+        border-radius: 5px;
+        margin: auto;
+        height: 5vh;
+
+    }
+
+}
+@media (max-width: 901px){}
